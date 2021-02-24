@@ -48,7 +48,6 @@ class Song
       song_name = names[0]
       artist_name = names[1].gsub(".mp3")
       song 
-   end 
   end
   
   def self.destroy_all
