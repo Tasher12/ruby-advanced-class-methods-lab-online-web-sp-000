@@ -45,9 +45,9 @@ class Song
   def self.new_from_filename(name)
     self.all.each do |data|
       data = row.split.gsub("-")
-      name = data[0]
+      song_name = data[0]
       artist_name = data[1].gsub(".mp3")
-      song = self.new 
+      song_name = self.new 
       song.name = name
       song.artist_name = artist_name
       song 
