@@ -46,7 +46,7 @@ class Song
     names = name.split(" - ")
       song = self.new 
       song.name = names[0]
-      artist.name = names[1].gsub(".mp3")
+      song.artist_name = names[1].gsub(".mp3")
       song 
   end
   
